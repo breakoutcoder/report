@@ -1,0 +1,129 @@
+.error {
+    color: red;
+    font-weight: 500;
+}
+
+label {
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input:active, textarea:active {
+    border-color: rgba(0, 0, 0, .3) !important;
+    background: #fafafa !important;
+    color: rgba(0, 0, 0, .87) !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+input:focus, textarea:focus {
+    border-color: #a291fb !important;
+    background: #fff !important;
+    color: rgba(0, 0, 0, .8) !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.button {
+    background-color: transparent;
+    box-shadow: 0 0 0 2px #a291fb inset !important;
+    color: #a291fb;
+    font-weight: 600;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    border: none !important;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 0 0 2px #8a73ff inset !important;
+    background-color: #8a73ff;
+    color: white;
+    text-decoration: none;
+}
+
+.required {
+    color: red;
+}
+
+.searchbody {
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: rgba(0, 0, 0, .87);
+    font-size: 1em;
+    /*font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
+    float: left;
+}
+
+.searchbody-input::placeholder {
+    color: rgba(191, 191, 191, .87);
+}
+
+.searchbody-input {
+    margin: 0;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 1.21428571em;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: #fff;
+    border: 1px solid rgba(34, 36, 38, .15);
+    color: rgba(0, 0, 0, .87);
+    border-radius: .28571429rem;
+    transition: box-shadow .1s ease, border-color .1s ease, -webkit-box-shadow .1s ease;
+    -webkit-transition: border-color .1s ease, -webkit-box-shadow .1s ease;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: 400;
+    font-style: normal;
+    padding: .67857143em 36px .67857143em 1em;
+}
+
+.searchbody-input:focus {
+    border-color: #a291fb;
+    background: #fff;
+    color: rgba(0, 0, 0, .8);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.icon::before {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    margin-top: -.5em;
+}
+
+.icon {
+    cursor: default;
+    position: absolute;
+    line-height: 1;
+    text-align: center;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 2.67142857em;
+    opacity: .5;
+    border-radius: 0 .28571429rem .28571429rem 0;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    /*margin: 0 34px 0 0;*/
+}
+
+.icon:hover {
+    font-size: 15px;
+}

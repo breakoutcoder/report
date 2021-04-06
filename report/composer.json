@@ -1,0 +1,21 @@
+{
+    "name": "mdalamin/report",
+    "description": "",
+    "authors": [
+        {
+            "name": "Md. Al Amin",
+            "email": "mdalaminnow2016@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": [
+            "app/helpers/helpers.php"
+        ]
+    }
+}
