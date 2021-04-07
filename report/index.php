@@ -115,7 +115,7 @@ $lastSecond = $pages - 1
                         <nav aria-label="Page navigation example" style="margin-left: auto">
                             <ul class="pagination">
                                 <li class="page-item <?php echo $page == 1 ? 'disabled' : '' ?>"><a class="page-link"
-                                                                                                    href="<?php echo url("index.php?page=$previous") ?>">Previous</a>
+                                                                                                    href="<?php echo url("index.php?page=$previous&search=$request->search") ?>">Previous</a>
                                 </li>
                                 <!--                                condition one start-->
                                 <?php if ($pages <= 9): ?>
